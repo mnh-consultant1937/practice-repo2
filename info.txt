@@ -1,0 +1,12 @@
+Correct Process of Creating and managing repository from terminal:
+
+mkdir folder-name
+cd folder-name
+
+touch file1 file2 file3 ...
+
+git init
+git add .
+git commit -m "Your message"
+git branch -M main
+gh repo create practice-repo2 --public --source=. --remote=origin --push
