@@ -10,3 +10,20 @@ git add .
 git commit -m "Your message"
 git branch -M main
 gh repo create practice-repo2 --public --source=. --remote=origin --push
+
+Normal Workflow (daily usage):
+Check repo status:
+git status
+
+Stage changes:
+git add .
+
+Commit:
+git commit -m "Your message"
+git branch -M main
+
+Push to GitHub:
+git push
+
+Pull latest changes
+git pull
